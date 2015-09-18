@@ -1,0 +1,137 @@
+@import "bourbon/bourbon";
+@import "fonts/fonts";
+
+$orange: #FF5500;
+$main-color: #fff;
+
+body {
+  font-family: "Overpass";
+  background-color: #ff3c00;
+  color: #A6ABB4;
+}
+
+.container-fluid {
+  @include size(100%);
+}
+
+#app-root {
+  @include position(fixed, 0);
+  @include size(100%);
+}
+
+.background-filter {
+  @extend #app-root;
+  z-index: 0;
+  @include background-image(linear-gradient(to right, #FF4F01 0%, transparent 90%));
+}
+
+.artwork {
+  @extend #app-root;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  @include prefixer(background-size, cover, webkit moz o spec);
+}
+
+.track-list {
+  z-index: 1;
+  @include position(relative, 50% null null 100px);
+  @include transform(translateY(-50%));
+  min-height: 100px;
+  min-width: 150px;
+  max-width: 300px;
+  color: $main-color;
+
+  li {
+    height: 40px;
+    width: auto;
+    margin-bottom: 10px;
+    color: #FEE5DD;
+    line-height: 40px;
+    position: relative;
+
+    .song-name, .by-artist {
+      display: inline-block;
+      vertical-align: baseline;
+    }
+
+    .song-name {
+      font-weight: 300;
+    }
+
+    .by-artist {
+      margin-left: 7px;
+      color: #B62301;
+    }
+
+    &.active {
+      @include background-image(linear-gradient(to right, #FF3800 0%, transparent 100%));
+      margin-left: -50px;
+      padding-left: 50px;
+
+      .song-name {
+        font-weight: 600;
+      }
+
+      .by-artist {
+        font-weight: 600;
+      }
+
+      .button {
+        display: block;
+        visibility: visible;
+      }
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    .button {
+      display: none;
+      visibility: hidden;
+      position: absolute;
+      top: -10px;
+      left: -40px;
+      height: 60px;
+      width: 60px;
+      @include prefixer(border-radius, 50%, webkit moz o spec);
+      padding-top: 15px;
+      padding-left: 18px;
+      background: #F22D00;
+      color: $main-color;
+
+      span {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+.song-info-aside {
+  @include position(absolute, null 0 70px null);
+  min-width: 300px;
+  min-height: 60px;
+  @include padding(5px 5px 5px 20px);
+  background-color:rgba(0, 0, 0, 0.7);
+
+  .title {
+    font-weight: 300;
+    @include margin(0);
+    color: $main-color;
+  }
+
+  .artist {
+    font-weight: 300;
+    @include margin(0 0 5px 0);
+    color: $orange;
+  }
+
+}
+
+.wave {
+  @include position(fixed, null 0 0 0);
+  height: 100px;
+  width: 100%;
+}

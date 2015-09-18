@@ -1,0 +1,47 @@
+/* Webfont: Overpass-Bold */@font-face {
+    font-family: 'Overpass';
+    src: url('fonts/overpass/Overpass-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/overpass/Overpass-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/overpass/Overpass-Bold.woff') format('woff'), /* Modern Browsers */
+         url('fonts/overpass/Overpass-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/overpass/Overpass-Bold.svg#Overpass-Bold') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Reg */@font-face {
+    font-family: 'Overpass';
+    src: url('fonts/overpass/Overpass-Reg.eot'); /* IE9 Compat Modes */
+    src: url('fonts/overpass/Overpass-Reg.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/overpass/Overpass-Reg.woff') format('woff'), /* Modern Browsers */
+         url('fonts/overpass/Overpass-Reg.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/overpass/Overpass-Reg.svg#Overpass-Reg') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 600;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-Light */@font-face {
+    font-family: 'Overpass';
+    src: url('fonts/overpass/Overpass-Light.eot'); /* IE9 Compat Modes */
+    src: url('fonts/overpass/Overpass-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/overpass/Overpass-Light.woff') format('woff'), /* Modern Browsers */
+         url('fonts/overpass/Overpass-Light.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/overpass/Overpass-Light.svg#Overpass-Light') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Overpass-ExtraLight */@font-face {
+    font-family: 'Overpass';
+    src: url('fonts/overpass/Overpass-ExtraLight.eot'); /* IE9 Compat Modes */
+    src: url('fonts/overpass/Overpass-ExtraLight.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('fonts/overpass/Overpass-ExtraLight.woff') format('woff'), /* Modern Browsers */
+         url('fonts/overpass/Overpass-ExtraLight.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('fonts/overpass/Overpass-ExtraLight.svg#Overpass-ExtraLight') format('svg'); /* Legacy iOS */
+    font-style: normal;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
