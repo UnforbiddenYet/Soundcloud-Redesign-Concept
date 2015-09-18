@@ -4,4 +4,26 @@ I found on Behance [redesign concept](https://www.behance.net/gallery/25823627/S
 Thanks to [Amr Zakaria](https://www.behance.net/AmrZakaria) for an idea!
 
 ## Technical side
-This app was written in ES6, React and Flux. 
+This app was written in ES6, React and Flux.
+
+## How to get working
+
+```sh
+npm install marky-markdown --save
+```
+If you wanna use http-server for serving files or skip the next step either
+```sh
+npm install http-server
+```
+
+```sh
+gulp
+```
+
+```sh
+gulp
+```
+
+```sh
+http-server
+```
