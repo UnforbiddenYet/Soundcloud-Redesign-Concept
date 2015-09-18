@@ -15,15 +15,11 @@ If you wanna use http-server for serving files or skip the next step either
 ```sh
 npm install http-server
 ```
-
+Build project
 ```sh
 gulp
 ```
-
-```sh
-gulp
-```
-
+Use http-server for serving files or any other solution
 ```sh
 http-server
 ```
