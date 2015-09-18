@@ -1,13 +1,14 @@
 {
-  "name": "react-player",
+  "name": "soundcloud-concept-react",
   "version": "0.0.0",
   "description": "",
   "main": "app.js",
   "dependencies": {
+    "events": "^1.0.2",
     "flux": "^2.1.1",
-    "react": "^0.13.3",
     "lodash": "^3.10.1",
-    "events": "^1.0.2"
+    "react": "^0.13.3",
+    "soundcloud-resolve": "^1.0.1"
   },
   "devDependencies": {
     "babel-eslint": "^4.1.0",
