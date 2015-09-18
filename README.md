@@ -9,7 +9,7 @@ This app was written in ES6, React and Flux.
 ## How to get working
 
 ```sh
-npm install marky-markdown --save
+npm install
 ```
 If you wanna use http-server for serving files or skip the next step either
 ```sh
